@@ -1,47 +1,122 @@
-# smart-utility-sustainability-dashboard
-Power BI dashboard analyzing 2004–2018 hourly &amp; monthly energy consumption for U.S. utility regions.
-A comprehensive Power BI dashboard analyzing hourly, monthly, and annual electricity usage across five major U.S. utility regions (AEP, COMED, DAYTON, DEOK, DOM) from 2004–2018.
+📌 Project Overview
 
-🔍 Project Highlights
+Electricity consumption patterns play a major role in utility planning, infrastructure investment, demand forecasting, and sustainability initiatives.
 
-4.34B kWh total electricity analyzed
+This dashboard was created to enable:
 
-15 years of historical data
+🔹 Regional energy consumption comparison
 
-482,970+ data points processed
+🔹 Monthly and seasonal load analysis
 
-Seasonal trends, regional peaks, load profiles
+🔹 Peak & low-demand pattern identification
 
-Operational insights & executive summary page
+🔹 Hourly load profiling
 
-📌 Key Insights
+🔹 Operational and sustainability recommendations
 
-Highest-consuming region: AEP (1.87B kWh)
+The dataset includes 482,970+ records, covering 15 years of energy usage across:
 
-Lowest-consuming region: DEOK (179M kWh)
+AEP
 
-Peak month: January (~426M kWh)
+COMED
 
-Lowest month: April (~314M kWh)
+DAYTON
 
-2011–2014: highest demand period
+DEOK
 
-📈 Visuals Included
+DOM
 
-Regional comparison table
+📊 Dashboard Pages & Key Insights
+📍 Page 1 – Overview Dashboard
 
-Monthly energy consumption
+Total Energy Usage (2004–2018)
 
-Multi-year trends
+Average Daily Energy Consumption
 
-Utility type analysis
+Total Number of Regions
 
-Hourly load profile
+Monthly Consumption Line Chart
 
-Executive insights summary
+Energy Distribution by Utility Type
 
-📥 Files in this repository
+Energy Consumption by Region
 
-.pbix	Full interactive Power BI dashboard   
+📍 Page 2 – Monthly & Seasonal Patterns
 
-.pdf	Exported report version
+Monthly Consumption Comparison (Bar Chart)
+
+Energy Trend Line (Seasonality View)
+
+KPI Cards:
+
+🔼 Highest Energy Region
+
+🔽 Lowest Energy Region
+
+📈 Peak Monthly Load
+
+📉 Lowest Monthly Load
+
+Regional Consumption Table
+
+📍 Page 3 – Deep-Dive Analytics
+
+Full 15-year pivot table by month
+
+Utility-type trend line
+
+Region performance comparison table:
+
+Sum / Avg / Min / Max of Energy_kWh
+
+Hourly Load Profile (0–23 hrs)
+
+📍 Page 4 – Executive Summary & Insights
+
+A business-ready summary that includes:
+
+Key Findings
+
+Operational Insights
+
+Sustainability Recommendations
+
+KPI Cards:
+
+Years of Data (15)
+
+Total Records Processed (482.97K)
+
+Average Daily Energy Usage
+
+🚀 Key Findings
+
+✔ AEP is the highest-consuming region — 1.878B kWh total usage
+✔ DEOK is the lowest — 179M kWh
+✔ Peak demand month: January (~426M kWh)
+✔ Lowest demand month: April (~314M kWh)
+✔ Overall demand surged between 2011–2014, indicating growth in load needs
+
+🔧 Technologies Used
+
+Power BI (Interactive Dashboards)
+
+DAX (Measures, KPIs, Calculated Tables)
+
+Data Modeling
+
+CSV Data Source
+
+Visualizations:
+
+Line charts
+
+Clustered bars
+
+Pivot matrix
+
+KPI cards
+
+Donut charts
+
+Heatmap-like conditional formatting
